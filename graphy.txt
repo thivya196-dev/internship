@@ -1,0 +1,127 @@
+CSS
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Root font size */
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #222;
+}
+
+/* Header */
+header {
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+header h1 {
+    font-size: clamp(2rem, 5vw, 4rem);
+}
+
+header p {
+    font-size: 1rem;
+}
+
+/* Main content */
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 2rem auto;
+}
+
+/* Intro section */
+.intro {
+    text-align: center;
+    padding: 2rem;
+}
+
+.intro h2 {
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
+    margin-bottom: 1rem;
+}
+
+/* Unit cards */
+.unit-card {
+    background-color: white;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.unit-card h2 {
+    color: #4a90e2;
+    font-size: clamp(1.25rem, 2.5vw, 2rem);
+    margin-bottom: 1rem;
+}
+
+/* PX example */
+.px-text {
+    font-size: 20px;
+}
+
+/* EM example */
+.em-text {
+    font-size: 1.5em;
+}
+
+/* REM example */
+.rem-text {
+    font-size: 1.5rem;
+}
+
+/* Percentage example */
+.percent-text {
+    width: 80%;
+    background-color: #d9ecff;
+    padding: 1rem;
+}
+
+/* VW example */
+.vw-text {
+    font-size: 4vw;
+    color: #6a42c2;
+}
+
+/* Clamp example */
+.clamp-text {
+    font-size: clamp(1.5rem, 4vw, 3rem);
+    color: #e05b45;
+    font-weight: bold;
+}
+
+/* Responsive heading demo */
+.responsive-demo {
+    text-align: center;
+    background-color: #dff5e1;
+    padding: 2rem;
+    border-radius: 12px;
+    margin-top: 2rem;
+}
+
+.responsive-heading {
+    font-size: clamp(1.8rem, 6vw, 4rem);
+    color: #217a3c;
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
